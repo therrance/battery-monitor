@@ -1,0 +1,48 @@
+.container {
+  font-family: Roboto, Noto, sans-serif;
+  width: 100px;
+  margin: 0 auto;
+  padding: 5px;
+}
+#batteryEnd {
+  width: 15px;
+}
+#batteryEnd div {
+  width: 35px;
+  height: 15px;
+  margin-left: 30px;
+  background-color: #ccc;
+}
+#batteryBody {
+  width: 75px;
+  height: 150px;
+  border: 10px #ccc solid;
+}
+#indicator {
+  width: 100%;
+  background-color: white;
+}
+#status {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+}
+.full {
+  background-color: #bfff00;
+}
+.good {
+  background-color: #bde24d;
+}
+.medium {
+  background-color: #ffff00;
+}
+.low {
+  background-color: #ffc800;
+}
+.empty {
+  background-color: #ff5200;
+}
